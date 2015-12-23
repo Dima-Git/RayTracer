@@ -97,9 +97,12 @@ Vec3 Tracer::trace(Ray ray) const
 			Vec3 v1 = (p1 * BIAS + normal * d1);
 			Vec3 v2 = (p2 * BIAS + normal * d2);
 
-			Vec3 bump_normal = v1.cross(v2).normalized();
+			Vec3 css = v1.cross(v2) * 100000.0;
+			
+			Vec3 bump_normal = css.normalized();
 			if (ray.direction.dot(normal) * ray.direction.dot(bump_normal) > 0.0) {
 				normal = bump_normal;
+				
 			}
 		}
 		// LIGHT SOURCE
