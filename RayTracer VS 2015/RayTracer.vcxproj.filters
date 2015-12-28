@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\AppSystem.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Configurer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ray.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Render.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Textures.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Tracer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Vec3.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\AppSystem.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Body.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Configurer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Material.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Ray.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Render.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Textures.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Vec3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Tracer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{45501e90-607e-4365-80c1-4cecf5e0521c}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{c3047e57-a0f0-4449-b1dc-f34402a16bd5}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+# MSVS Project ignored files
+
+# Output
+Release/
+
+# Cache and user specific
+.vs/
+*.sdf
+*.opensdf
+*.user
+
